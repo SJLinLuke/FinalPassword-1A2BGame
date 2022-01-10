@@ -1,0 +1,377 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4045469E27893CB10013FF5D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4045469D27893CB10013FF5D /* AppDelegate.swift */; };
+		404546A027893CB10013FF5D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4045469F27893CB10013FF5D /* SceneDelegate.swift */; };
+		404546A527893CB10013FF5D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 404546A327893CB10013FF5D /* Main.storyboard */; };
+		404546A727893CB10013FF5D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 404546A627893CB10013FF5D /* Assets.xcassets */; };
+		404546AA27893CB10013FF5D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 404546A827893CB10013FF5D /* LaunchScreen.storyboard */; };
+		4063F0C3278B211500393C5E /* GuessNumberGameRulesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4063F0C2278B211500393C5E /* GuessNumberGameRulesViewController.swift */; };
+		4063F0C5278B2A2300393C5E /* GuessNumberGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4063F0C4278B2A2300393C5E /* GuessNumberGameViewController.swift */; };
+		4063F0C9278B81BC00393C5E /* Guess2A1BGameRulesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4063F0C8278B81BC00393C5E /* Guess2A1BGameRulesViewController.swift */; };
+		4063F0CB278B869800393C5E /* Guess2A1BGmaeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4063F0CA278B869800393C5E /* Guess2A1BGmaeViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4045469A27893CB10013FF5D /* Demo -4 終極密碼＆1A2B遊戲.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Demo -4 終極密碼＆1A2B遊戲.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4045469D27893CB10013FF5D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4045469F27893CB10013FF5D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		404546A427893CB10013FF5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		404546A627893CB10013FF5D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		404546A927893CB10013FF5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		404546AB27893CB10013FF5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4063F0C2278B211500393C5E /* GuessNumberGameRulesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuessNumberGameRulesViewController.swift; sourceTree = "<group>"; };
+		4063F0C4278B2A2300393C5E /* GuessNumberGameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuessNumberGameViewController.swift; sourceTree = "<group>"; };
+		4063F0C8278B81BC00393C5E /* Guess2A1BGameRulesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Guess2A1BGameRulesViewController.swift; sourceTree = "<group>"; };
+		4063F0CA278B869800393C5E /* Guess2A1BGmaeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Guess2A1BGmaeViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4045469727893CB10013FF5D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4045469127893CB10013FF5D = {
+			isa = PBXGroup;
+			children = (
+				4045469C27893CB10013FF5D /* Demo -4 終極密碼＆1A2B遊戲 */,
+				4045469B27893CB10013FF5D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4045469B27893CB10013FF5D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4045469A27893CB10013FF5D /* Demo -4 終極密碼＆1A2B遊戲.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4045469C27893CB10013FF5D /* Demo -4 終極密碼＆1A2B遊戲 */ = {
+			isa = PBXGroup;
+			children = (
+				4045469D27893CB10013FF5D /* AppDelegate.swift */,
+				4045469F27893CB10013FF5D /* SceneDelegate.swift */,
+				4063F0C2278B211500393C5E /* GuessNumberGameRulesViewController.swift */,
+				4063F0C4278B2A2300393C5E /* GuessNumberGameViewController.swift */,
+				4063F0C8278B81BC00393C5E /* Guess2A1BGameRulesViewController.swift */,
+				4063F0CA278B869800393C5E /* Guess2A1BGmaeViewController.swift */,
+				404546A327893CB10013FF5D /* Main.storyboard */,
+				404546A627893CB10013FF5D /* Assets.xcassets */,
+				404546A827893CB10013FF5D /* LaunchScreen.storyboard */,
+				404546AB27893CB10013FF5D /* Info.plist */,
+			);
+			path = "Demo -4 終極密碼＆1A2B遊戲";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4045469927893CB10013FF5D /* Demo -4 終極密碼＆1A2B遊戲 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 404546AE27893CB10013FF5D /* Build configuration list for PBXNativeTarget "Demo -4 終極密碼＆1A2B遊戲" */;
+			buildPhases = (
+				4045469627893CB10013FF5D /* Sources */,
+				4045469727893CB10013FF5D /* Frameworks */,
+				4045469827893CB10013FF5D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Demo -4 終極密碼＆1A2B遊戲";
+			productName = "Demo -4 終極密碼＆1A2B遊戲";
+			productReference = 4045469A27893CB10013FF5D /* Demo -4 終極密碼＆1A2B遊戲.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4045469227893CB10013FF5D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					4045469927893CB10013FF5D = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 4045469527893CB10013FF5D /* Build configuration list for PBXProject "Demo -4 終極密碼＆1A2B遊戲" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4045469127893CB10013FF5D;
+			productRefGroup = 4045469B27893CB10013FF5D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4045469927893CB10013FF5D /* Demo -4 終極密碼＆1A2B遊戲 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4045469827893CB10013FF5D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				404546AA27893CB10013FF5D /* LaunchScreen.storyboard in Resources */,
+				404546A727893CB10013FF5D /* Assets.xcassets in Resources */,
+				404546A527893CB10013FF5D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4045469627893CB10013FF5D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4063F0CB278B869800393C5E /* Guess2A1BGmaeViewController.swift in Sources */,
+				4045469E27893CB10013FF5D /* AppDelegate.swift in Sources */,
+				404546A027893CB10013FF5D /* SceneDelegate.swift in Sources */,
+				4063F0C9278B81BC00393C5E /* Guess2A1BGameRulesViewController.swift in Sources */,
+				4063F0C3278B211500393C5E /* GuessNumberGameRulesViewController.swift in Sources */,
+				4063F0C5278B2A2300393C5E /* GuessNumberGameViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		404546A327893CB10013FF5D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				404546A427893CB10013FF5D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		404546A827893CB10013FF5D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				404546A927893CB10013FF5D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		404546AC27893CB10013FF5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		404546AD27893CB10013FF5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		404546AF27893CB10013FF5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z24RAXMBWH;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Demo -4 終極密碼＆1A2B遊戲/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.self.Demo--4------1A2B--";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		404546B027893CB10013FF5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z24RAXMBWH;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Demo -4 終極密碼＆1A2B遊戲/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.self.Demo--4------1A2B--";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4045469527893CB10013FF5D /* Build configuration list for PBXProject "Demo -4 終極密碼＆1A2B遊戲" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				404546AC27893CB10013FF5D /* Debug */,
+				404546AD27893CB10013FF5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		404546AE27893CB10013FF5D /* Build configuration list for PBXNativeTarget "Demo -4 終極密碼＆1A2B遊戲" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				404546AF27893CB10013FF5D /* Debug */,
+				404546B027893CB10013FF5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4045469227893CB10013FF5D /* Project object */;
+}
